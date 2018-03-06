@@ -15,7 +15,7 @@ Installation
 
 * Modify the .env file and enjoy.
 
-* Notes: If you want to upload files with more than 5 Mb, check at *php.ini* the parameter *upload_max_filesize*. Check you have write permissions at /storage dir.
+* Notes: If you want to increase the upload files limit, check at *php.ini* the parameter *upload_max_filesize*. Check you have write permissions at /storage dir.
 
 Dependencies
 ------------
@@ -27,7 +27,9 @@ TODO
 
 * Login.
 
-* Use the .env parameters for output folder.
+* Better looking. I don't use any css. Maybe I could use a framework. Spoiler: I love [Bulma](https://bulma.io/).
+
+* Copy the .env.example to .env and change parameters as your like.
 
 * Refactor all into classes.
 
