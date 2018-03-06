@@ -1,0 +1,14 @@
+{
+    "name": "jmcerrejon/uploader",
+    "description": "Just a simple form for upload files with login.",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "authors": [
+        {
+            "name": "Jose Manuel Cerrejon Gonzalez",
+            "email": "ulysess@gmail.com"
+        }
+    ]
+}
