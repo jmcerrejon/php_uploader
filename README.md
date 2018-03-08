@@ -4,7 +4,7 @@ PHP uploader
 Description
 -----------
 
-Just an ugly and simple form for upload files using php.
+Just an ugly and simple form for upload files using php made in 1 hour.
 
 Installation
 ------------
@@ -13,9 +13,22 @@ Installation
 
 * Install [composer](https://getcomposer.org/download/) and then run ``` composer install ```
 
-* Modify the .env file and enjoy.
+* Copy the .env.example to .env and change parameters as your like.
+
+* Enjoy.
 
 * Notes: If you want to increase the upload files limit, check at *php.ini* the parameter *upload_max_filesize*. Check you have write permissions at /storage dir.
+
+Features
+--------
+
+* Login/Logout through [$_SESSION](https://secure.php.net/manual/en/reserved.variables.session.php).
+
+* Settings at *.env* file.
+
+* Upload into a */storage* folder. You can change it.
+
+* You can set the maximum file size.
 
 Dependencies
 ------------
@@ -25,13 +38,13 @@ Dependencies
 TODO
 ----
 
-* Login.
+* Multiple files at a time.
 
 * Better looking. I don't use any css. Maybe I could use a framework. Spoiler: I love [Bulma](https://bulma.io/).
 
-* Copy the .env.example to .env and change parameters as your like.
-
 * Refactor all into classes.
+
+* Take into account I didn't have much more time for this. It's a favor for a colleague. So you are free to PR and improve it.
 
 Inspiration
 -----------
